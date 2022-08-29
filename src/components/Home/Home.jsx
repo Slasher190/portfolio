@@ -18,7 +18,9 @@ import {
     SiHtml5,
     SiThreedotjs,
   } from "react-icons/si";
-// import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls';
+import YoutubeCard from '../YoutubeCard/YoutubeCard';
+
+  // import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls';
 // let OrbitControls = require('three/examples/jsm/controls/OrbitControls');
 
 
@@ -163,6 +165,16 @@ const Home = () => {
                 <SiThreedotjs/>
             </div>
         </div>
+        <div className = "homeYoutube">
+            <Typography variant="h3">YOUTUBE VIDEOS</Typography>
+            <div className="homeYoutubeWrapper">
+                <YoutubeCard image="https://media.istockphoto.com/photos/nebula-elements-of-this-image-furnished-by-nasa-picture-id472506038?k=20&amp;m=472506038&amp;s=612x612&amp;w=0&amp;h=W3Gop2opWwPs5MNo1I3bL38gbnrUHnRvGkKIoaMqewI=" title="Sample Video"/>
+                <YoutubeCard image="https://media.istockphoto.com/photos/nebula-elements-of-this-image-furnished-by-nasa-picture-id472506038?k=20&amp;m=472506038&amp;s=612x612&amp;w=0&amp;h=W3Gop2opWwPs5MNo1I3bL38gbnrUHnRvGkKIoaMqewI=" title="Sample Video"/>
+                <YoutubeCard image="https://media.istockphoto.com/photos/nebula-elements-of-this-image-furnished-by-nasa-picture-id472506038?k=20&amp;m=472506038&amp;s=612x612&amp;w=0&amp;h=W3Gop2opWwPs5MNo1I3bL38gbnrUHnRvGkKIoaMqewI=" title="Sample Video"/>
+                <YoutubeCard image="https://media.istockphoto.com/photos/nebula-elements-of-this-image-furnished-by-nasa-picture-id472506038?k=20&amp;m=472506038&amp;s=612x612&amp;w=0&amp;h=W3Gop2opWwPs5MNo1I3bL38gbnrUHnRvGkKIoaMqewI=" title="Sample Video"/>
+            </div>
+        </div>
+
     </div>
   );
 };
